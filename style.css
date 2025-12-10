@@ -71,6 +71,7 @@ body {
 .next {
   cursor: pointer;
   position: absolute;
+  z-index: 999999;
   top: 50%;
   width: auto;
   padding: 16px;
@@ -93,7 +94,7 @@ body {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: #f3ededcc;
+  background-color: hsla(0, 3%, 7%, 0.8);
 }
 
 /* Number text (1/3 etc) */
@@ -108,7 +109,7 @@ body {
 /* Caption text */
 .caption-container {
   text-align: center;
-  /* background-color: black; */
+  background-color: black;
   padding: 2px 16px;
   color: white;
 }
