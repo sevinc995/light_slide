@@ -10,6 +10,14 @@ body {
 #portfolio .portfolio-box a {
   color: #f4623a;
 }
+#portfolio .portfolio-box a #myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#portfolio .portfolio-box a #myImg:hover {
+  opacity: 0.7;
+}
 #portfolio .portfolio-box a .portfolio-box-caption {
   display: flex;
   align-items: center;
