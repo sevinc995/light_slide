@@ -20,67 +20,32 @@
 
     </header>
     <main>
-        <section id="portfolio">
-            <div class="container-fluid p-0">
-                <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/1.jpg" title="Project Name">
-                            <img id="myImg" class="img-fluid" src="assets/1.jpg" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/2.jpg" title="Project Name">
-                            <img id="myImg" class="img-fluid" src="assets/2.jpg" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/3.jpg" title="Project Name">
-                            <img id="myImg" class="img-fluid" src="assets/3.jpg" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/4.jpg" title="Project Name">
-                            <img id="myImg" class="img-fluid" src="assets/4.jpg" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/5.jpg" title="Project Name">
-                            <img id="myImg" class="img-fluid" src="assets/5.jpg" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/6.jpg" title="Project Name">
-                            <img id="myImg" class="img-fluid" src="assets/6.jpg" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
+        <!-- Trigger the Modal -->
+        <img class="myImg" src="assets/1.jpg" alt="Snow" style="width:100%;max-width:300px">
+        <img class="myImg" src="assets/2.jpg" alt="Snow" style="width:100%;max-width:300px">
+        <img class="myImg" src="assets/3.jpg" alt="Snow" style="width:100%;max-width:300px">
+        <img class="myImg" src="assets/4.jpg" alt="Snow" style="width:100%;max-width:300px">
+        <img class="myImg" src="assets/5.jpg" alt="Snow" style="width:100%;max-width:300px">
+        <img class="myImg" src="assets/6.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+
+            <!-- prev next -->
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+
+
     </main>
     <footer>
 
