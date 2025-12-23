@@ -1,8 +1,32 @@
 #portfolio
-    // .imgbox
-    //     .minibox
-
-
+    .imgbox
+        position: relative
+        display: flex
+        justify-content: center
+        align-items: center
+        cursor: pointer
+        &:hover
+            .textbox
+                background-color: #f4623a
+                opacity: 0.9
+        .textbox
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            position: absolute
+            top: 0
+            left: 0
+            bottom: 0
+            opacity: 0
+            line-height: 1.5
+            pointer-events: none
+            h3
+                font-size: 17px
+                color: #ffffff80
+            h4
+                font-size: 22px
+                color: #fff
     #myImg
         border-radius: 5px
         cursor: pointer

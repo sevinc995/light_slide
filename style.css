@@ -6,7 +6,43 @@ body {
 .imgbox img {
   width: 100%;
 }
+.imgbox .textbox {
+  width: 100%;
+  height: 100%;
+}
 
+#portfolio .imgbox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#portfolio .imgbox:hover .textbox {
+  background-color: #f4623a;
+  opacity: 0.9;
+}
+#portfolio .imgbox .textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  line-height: 1.5;
+  pointer-events: none;
+}
+#portfolio .imgbox .textbox h3 {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.5019607843);
+}
+#portfolio .imgbox .textbox h4 {
+  font-size: 22px;
+  color: #fff;
+}
 #portfolio #myImg {
   border-radius: 5px;
   cursor: pointer;
